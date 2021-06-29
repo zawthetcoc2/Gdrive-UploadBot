@@ -3,25 +3,25 @@ import os
 class Config:
 
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = "1716893273:AAFf11zrObEXKrdyZDwXBpAAXR7rnHuuTq0"
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
+    APP_ID = "6749378"
+    API_HASH = "cd2ed7a21b241fe4457a7647bd4463c9"
 
      # Sql Database url
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = "postgres://zrracbkmkgtkrl:f1937b89ed8525675c35285de4d00152a11b1a7073362d47d9ac3a958c4955d4@ec2-50-17-255-120.compute-1.amazonaws.com:5432/d6vten9km80kia"
 
     # the download location, where the HTTP Server runs
     DOWNLOAD_DIRECTORY = "./DOWNLOADS"
 
-    G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", "568fguijfdry.goohle.com")
+    G_DRIVE_CLIENT_ID = "574228547159-a36kahck9q5ea9bt5djmpbu3h8215se5.apps.googleusercontent.com"
 
-    G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", "FxvbXbjuyr357e34fcj8")
+    G_DRIVE_CLIENT_SECRET = "V5zQMkZrP8bN37gzuNs4n7x3"
     
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    SUDO_USERS = "1299621881"
 
 
 class BotCommands:
